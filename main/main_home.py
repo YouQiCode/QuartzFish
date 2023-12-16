@@ -14,7 +14,8 @@ while while_i == True:
     tdd = time.strftime("%m", time.localtime())
 
     clock_ent_file = open("clock_ent.txt")
-    clock_ent = clock_m_file.read()
+    clock_ent = clock_ent_file.read()
+    clock_ent_file.close()
 
     if clock_ent == "on":
         clock_h_file = open("clock_h.txt")
@@ -24,17 +25,16 @@ while while_i == True:
         clock_h_file.close()
         clock_m_file.close()
 
-    clock_ent_file.close()
     if clock_ent == "on":
         bell_ent = "[ Bell ]"
     else:
         bell_ent = "[      ]"
 
-    print("|----------------------------|")
-    print(" ",tHH,":",tMM,":",tSS)
-    print("",tYY,"/",tmm,"/",tdd)
-    print(bell_ent)
-    print("|----------------------------|")
+    print("| ")
+    print("| ",tHH,":",tMM,":",tSS)
+    print("| ",tYY,"/",tmm,"/",tdd)
+    print("| ",bell_ent)
+    print("| ")
     if clock_ent == "on":
         if clock_m == tMM:
             if  clock_h == tHH:
