@@ -1,4 +1,10 @@
+---
+typora-root-url: ./
+---
+
 # QuartzFish
+
+ [<img src="/res/qq.webp" width = "5%" height = "5%" alt="QQ">](http://qm.qq.com/cgi-bin/qm/qr?group_code=912774582)
 
 ## 什么是QuartzFish？
 
@@ -51,5 +57,4 @@ $ offclock
 ```
 $ onclock
 ```
-
 
