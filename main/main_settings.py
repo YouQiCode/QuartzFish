@@ -31,14 +31,14 @@ while while_i == True:
         clock_h(Command)
         Command = input(qfish.lang_settings_tx_mode)
         clock_m(Command)
-        print("done")
+        print(qfish.lang_settings_done)
 
     if Command == "/onclock":
         clock_ent("on")
-        print("done")
+        print(qfish.lang_settings_done)
 
     if Command == "/offclock":
         clock_ent("off")
-        print("done")
+        print(qfish.lang_settings_done)
 
     print("\n")
