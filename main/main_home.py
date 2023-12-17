@@ -26,9 +26,9 @@ while while_i == True:
         clock_m_file.close()
 
     if clock_ent == "on":
-        bell_ent =  qfish.lang_settings_bell_off
+        bell_ent =  qfish.lang_home_bell_off
     else:
-        bell_ent = qfish.lang_settings_bell_off
+        bell_ent = qfish.lang_home_bell_off
 
     print("| ")
     print("| ",tHH,":",tMM,":",tSS)

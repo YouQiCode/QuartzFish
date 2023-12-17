@@ -4,3 +4,4 @@
 
 python.exe main_home.py
 pause
+exit

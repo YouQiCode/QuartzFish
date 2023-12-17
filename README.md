@@ -30,8 +30,8 @@ QuartzFish（以下简称QF），是一个无聊的Python项目
 
 ```
 $ /clock
-$ {HH}
-$ {MM}
+>>>> {HH}
+>>>> {MM}
 ```
 
 实例（设置为01:23aa）
@@ -47,7 +47,7 @@ $ 23
 语句+实例
 
 ```
-$ offclock
+$ /offclock
 ```
 
 ### 开启闹钟
@@ -55,6 +55,6 @@ $ offclock
 语句+实例
 
 ```
-$ onclock
+$ /onclock
 ```
 

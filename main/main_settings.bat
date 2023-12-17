@@ -4,3 +4,4 @@
 
 python.exe main_settings.py
 pause
+exit
